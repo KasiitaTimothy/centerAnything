@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Center Trick</title>
+  <style>
+    .box {
+      background-color: teal;
+      width: 300px;
+      height: 300px;
+      display: grid;
+      place-items: center;
+    }
+
+    .box h1 {
+      opacity: 0;
+      color: #fff;
+      transition: opacity 1s ease-in;
+    }
+
+    .box:hover h1 {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Youtube</h1>
+  </div>
+
+</body>
+
+</html>
